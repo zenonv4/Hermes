@@ -20,7 +20,7 @@ class DemoActions implements iScroll {
 	}
 	private function testparameter($ParameterArray)
 	{
-		return 'this works darn it be! here be yer text:'. $ParameterArray['Text'];
+		return 'this works darn it be! here be yer text:'. $ParameterArray->Text;
 	}
 }
 ?>
