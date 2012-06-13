@@ -1,0 +1,16 @@
+Hermes Parses and builds Messages
+
+Hermes is both an Server Side parser and an Client side parser
+
+Hermes Translates messages into functions, database inserts, etc. Via Scrolls
+
+
+Hermes(JS) -> Message Check -> 0 -> Reset Timer -;
+					        -> 1 -> Parse message -> Send reply if any -;
+
+
+					   
+Hermes Relies on Scrolls for Logic
+
+Each Scroll implements IScroll
+Each Scroll Defines a set of actions.
